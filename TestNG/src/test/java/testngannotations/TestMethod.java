@@ -2,7 +2,7 @@ package testngannotations;
 
 import org.testng.annotations.Test;
 
-public class TestMethod {
+public class TestMethod extends BeforeAfterClass{
 
 	@Test
 	public void testLogin() {
